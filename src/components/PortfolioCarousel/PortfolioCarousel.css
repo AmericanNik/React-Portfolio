@@ -1,0 +1,48 @@
+.carousel1 {
+  background-color: #8a0f24;
+  color: #f4f4f4;
+  padding-bottom: 20px;
+}
+
+.transluscentBackground {
+  background-color: rgba(12, 12, 14, 0.5);
+}
+
+.portTitle {
+  text-align: center;
+}
+
+.carousel-control-prev:hover {
+  background-color: rgba(12, 12, 14, 0.3);
+}
+
+.carousel-control-next:hover {
+  background-color: rgba(12, 12, 14, 0.3);
+}
+
+.spacer {
+  height: 2px;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.healthbuddyItem {
+  min-height: 300px;
+  max-height: 600px;
+
+  background: url(../PortfolioCarousel/images/healthbuddyBackground.png);
+  background-size: 550px;
+  background-position: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+
+.d-block {
+}

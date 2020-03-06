@@ -1,0 +1,20 @@
+.gifContainer img {
+  max-width: 1110px;
+  padding-bottom: 30px;
+}
+
+.keepersText {
+  color: #f4f4f4;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .theGif {
+    width: 100%;
+  }
+}
+
+.keeperSection {
+  background-color: #173245;
+  width: 100%;
+}

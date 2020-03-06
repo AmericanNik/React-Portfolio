@@ -1,0 +1,20 @@
+.contactContainer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 11px;
+  background-color: #8a0f24;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+.formContainer {
+  background-color: #173245;
+  padding-top: 15px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.iFrame {
+  width: 100%;
+}

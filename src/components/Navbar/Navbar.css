@@ -1,0 +1,114 @@
+.navbar {
+  background-color: rgba(11, 11, 11, 0.9);
+  color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  height: 100px;
+  font-size: 28px;
+}
+
+.navContainer {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  height: 100%;
+}
+
+.navContainer a {
+  text-decoration: none;
+
+  color: white;
+}
+.navContainer a:active {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+.navLogo {
+  height: 50px;
+  padding: 20px 5px 0px 5px;
+  width: 175px;
+}
+
+.navMenu {
+  margin-left: auto;
+}
+
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  height: 100%;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.navLinks li {
+  margin: 0 5px 0 5px;
+  padding-top: 20px;
+  height: 50px;
+}
+
+.navLinks a:hover {
+  background-color: #7c1121;
+}
+
+.navContainer a:hover {
+  background-color: #7c1121;
+}
+
+@media screen and (max-width: 750px) {
+  .navbar {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+  }
+  .navLinks {
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .navMenu {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+  }
+  .navContainer {
+    display: block;
+    height: 80px;
+    width: 450px;
+  }
+  .navLinks li {
+    padding-top: 10px;
+    height: 25px;
+    margin-left: auto;
+  }
+  .navLogo {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    padding: 0;
+  }
+  .navLogo:hover {
+    background-color: #7c1121;
+  }
+}
+
+@media screen and (min-width: 450) {
+  .navMenu {
+    width: 300px;
+  }
+  .navContainer {
+    width: 300px;
+  }
+}

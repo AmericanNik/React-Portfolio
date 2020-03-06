@@ -1,0 +1,130 @@
+.topOfPage {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+}
+
+.headlineSection {
+  height: 450px;
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 250px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+}
+
+.githubIcon:hover {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+.linkedInIcon:hover {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.fiverrIcon:hover {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.linkedInIcon {
+  color: #0077b5;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.iconContainer {
+  height: 170px;
+  position: relative;
+}
+
+.fiverrIcon {
+  background-repeat: no-repeat;
+  height: 140px;
+  width: 140px;
+  margin-left: 30px;
+  display: inline-block;
+  background: url('./fiverr.ico');
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  bottom: -10px;
+}
+
+.githubIcon {
+  color: #333;
+}
+
+.headlineContainer {
+  background: rgba(11, 11, 11, 0.9);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1636px) {
+  .headlineSection {
+    margin-top: 160px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .headlineSection {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .headlineSection {
+    font-size: 3rem;
+  }
+
+  .headlineContainer {
+    padding-bottom: 10px;
+  }
+
+  .fiverrIcon {
+    height: 85px;
+    width: 85px;
+    bottom: 0px;
+  }
+  .iconContainer {
+    height: 90px;
+  }
+
+  .headlineSection {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .headlineSection {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fiverrIcon {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 240px) {
+}
+
+@media screen and (max-width: 434px) {
+  .headlineSection {
+    height: 525px;
+  }
+}

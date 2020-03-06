@@ -1,0 +1,45 @@
+.aboutContainer {
+  text-align: center;
+  padding-top: 20px;
+  background-color: #173245;
+  color: #f4f4f4;
+}
+
+.proPic {
+  border-radius: 50%;
+  height: 250px;
+}
+
+.proPicDiv {
+  width: 40%;
+}
+
+.proText {
+  width: 60%;
+}
+
+.proContainer {
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.spacer {
+  height: 2px;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+@media screen and (max-width: 770px) {
+  .proContainer {
+    display: block;
+  }
+
+  .proPicDiv {
+    width: 100%;
+  }
+
+  .proText {
+    width: 100%;
+  }
+}

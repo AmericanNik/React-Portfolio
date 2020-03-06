@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 3.1rem;
+  background-image: url('./1920USA.jpg');
+  background-size: cover;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.customContainer {
+  margin: 0 auto;
+}
