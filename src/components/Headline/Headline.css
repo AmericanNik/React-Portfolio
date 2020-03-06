@@ -4,6 +4,15 @@
   top: 0;
 }
 
+#headlineHighlight {
+  color: red;
+  transition: 2s;
+}
+
+.remaining {
+  transition: 2s;
+}
+
 .headlineSection {
   height: 450px;
   color: white;
@@ -11,7 +20,6 @@
   font-weight: bold;
   text-align: center;
   margin-top: 250px;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: inherit;

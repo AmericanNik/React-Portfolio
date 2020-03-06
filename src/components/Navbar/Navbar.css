@@ -81,22 +81,22 @@
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    height: 40px;
+    height: 50px;
   }
   .navContainer {
     display: block;
-    height: 80px;
+    height: 100px;
     width: 450px;
   }
   .navLinks li {
-    padding-top: 10px;
+    padding-top: 0;
     height: 25px;
     margin-left: auto;
   }
   .navLogo {
     margin-left: auto;
     margin-right: auto;
-    height: 40px;
+    height: 50px;
     padding: 0;
   }
   .navLogo:hover {

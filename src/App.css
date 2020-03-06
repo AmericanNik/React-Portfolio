@@ -11,6 +11,7 @@ body {
   padding-bottom: 3.1rem;
   background-image: url('./1920USA.jpg');
   background-size: cover;
+  background-repeat: repeat;
 }
 
 html {
