@@ -8,13 +8,33 @@
   text-align: center;
 }
 
+.keeperSection {
+  background-color: #173245;
+  width: 100%;
+}
 @media screen and (max-width: 1200px) {
   .theGif {
     width: 100%;
   }
 }
 
-.keeperSection {
-  background-color: #173245;
-  width: 100%;
+@media screen and (max-width: 1200px) {
+  .theGif {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .theGif {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .theGif {
+    width: 450px;
+  }
+  .gifContainer {
+    margin-left: 5px;
+  }
 }

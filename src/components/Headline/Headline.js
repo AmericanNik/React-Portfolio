@@ -8,7 +8,6 @@ const Headline = () => {
   setInterval(() => {
     let color = colors[(i = (i + 1) % colors.length)];
     document.getElementById('headlineHighlight').style.color = color;
-    console.log(color);
   }, 2000);
 
   return (
@@ -24,14 +23,26 @@ const Headline = () => {
               <span className='remaining'> Web Developer At Large</span>
             </div>
             <div className='iconContainer container'>
-              <a target='_blank' href='https://www.linkedin.com/in/NikArboleda'>
-                <i class='fab fa-linkedin fa-2x linkedInIcon'></i>
+              <a
+                target='_blank'
+                href='https://www.linkedin.com/in/NikArboleda'
+                rel='noopener noreferrer'
+              >
+                <i className='fab fa-linkedin fa-2x linkedInIcon'></i>
               </a>
-              <a target='_blank' href='https://github.com/AmericanNik'>
-                <i class='fab fa-github-square fa-2x githubIcon'></i>
+              <a
+                target='_blank'
+                href='https://github.com/AmericanNik'
+                rel='noopener noreferrer'
+              >
+                <i className='fab fa-github-square fa-2x githubIcon'></i>
               </a>
-              <a target='_blank' href='https://github.com/AmericanNik'>
-                <span class='fiverrIcon'></span>
+              <a
+                target='_blank'
+                href='https://www.fiverr.com/nikolausa'
+                rel='noopener noreferrer'
+              >
+                <span className='fiverrIcon'></span>
               </a>
             </div>
           </div>

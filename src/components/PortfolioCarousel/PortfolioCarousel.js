@@ -1,11 +1,12 @@
 import React from 'react';
 import './PortfolioCarousel.css';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
 
 class PortfolioCarousel extends React.Component {
   constructor(props) {
     super(props);
+    this.healthbuddyClick = () => {
+      console.log('something!!');
+    };
   }
 
   render() {
@@ -33,12 +34,16 @@ class PortfolioCarousel extends React.Component {
                   data-target='#carouselExampleIndicators'
                   data-slide-to='2'
                 ></li>
+                <li
+                  data-target='#carouselExampleIndicators'
+                  data-slide-to='3'
+                ></li>
               </ol>
               <div className='carousel-inner'>
                 <div className='carousel-item active'>
                   <img
                     className='d-block w-100'
-                    src={require('./images/healthbuddy.png')}
+                    src={require('./images/healthbuddyBackground1.png')}
                     alt='First slide'
                   />
                   <div className='carousel-caption  d-md-block'>
@@ -54,6 +59,7 @@ class PortfolioCarousel extends React.Component {
                       <a
                         href='https://my-healthbuddy.herokuapp.com/'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         Deployed Link
                       </a>
@@ -62,6 +68,7 @@ class PortfolioCarousel extends React.Component {
                       <a
                         target='_blank'
                         href='https://github.com/AmericanNik/My-Healthbuddy'
+                        rel='noopener noreferrer'
                       >
                         Github
                       </a>
@@ -85,6 +92,7 @@ class PortfolioCarousel extends React.Component {
                       <a
                         href='https://secure-taiga-47401.herokuapp.com/'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         Deployed Link
                       </a>
@@ -93,6 +101,7 @@ class PortfolioCarousel extends React.Component {
                       <a
                         href='https://github.com/emcoraccio/Project2'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         Github
                       </a>
@@ -102,7 +111,7 @@ class PortfolioCarousel extends React.Component {
 
                 <div className='carousel-item'>
                   <img
-                    src={require('./images/dndpic2.png')}
+                    src={require('./images/dndpic222.jpg')}
                     alt='Third Slide'
                     className='d-block w-100'
                   />
@@ -116,6 +125,7 @@ class PortfolioCarousel extends React.Component {
                       <a
                         href='https://dnd-friend-finder.herokuapp.com/'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         Deployed Link
                       </a>
@@ -124,6 +134,39 @@ class PortfolioCarousel extends React.Component {
                       <a
                         href='https://github.com/AmericanNik/FriendFinder'
                         target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        Github
+                      </a>
+                    </h6>
+                  </div>
+                </div>
+                <div className='carousel-item'>
+                  <img
+                    className='d-block w-100'
+                    src={require('./images/bayCalendars.png')}
+                    alt='Second slide'
+                  />
+                  <div className='carousel-caption  d-md-block transluscentBackground'>
+                    <h5>Bay Calendars</h5>
+                    <p>
+                      A full-stack calander scheduling application designed to
+                      coordinate events with attendee and invite management.
+                    </p>
+                    <h6>
+                      <a
+                        href='https://secure-taiga-47401.herokuapp.com/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        Deployed Link
+                      </a>
+                    </h6>
+                    <h6>
+                      <a
+                        href='https://github.com/emcoraccio/Project2'
+                        target='_blank'
+                        rel='noopener noreferrer'
                       >
                         Github
                       </a>

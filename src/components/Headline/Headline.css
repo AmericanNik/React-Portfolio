@@ -61,7 +61,7 @@
   width: 140px;
   margin-left: 30px;
   display: inline-block;
-  background: url('./fiverr.ico');
+  background: url('./fiverrIcon.ico');
   background-size: contain;
   background-position: center;
   position: relative;
@@ -69,7 +69,7 @@
 }
 
 .githubIcon {
-  color: #333;
+  color: #f4f4f4;
 }
 
 .headlineContainer {

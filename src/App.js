@@ -6,7 +6,6 @@ import About from './components/About/About';
 import KeepersLegend from './components/KeepersLegend/KeepersLegend';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import Spacer from './components/Spacer/Spacer';
 import './App.css';
 
 class App extends React.Component {

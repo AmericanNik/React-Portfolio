@@ -13,7 +13,7 @@ export class Contact extends Component {
   render() {
     return (
       <div id='Contact' className='contactContainer'>
-        <div className='container'>
+        <div className='container '>
           <div className='formContainer'>
             <h3>Contact Me</h3>
             <p>
@@ -22,13 +22,14 @@ export class Contact extends Component {
               forward to hearing from you!
             </p>
             <iframe
+              title='Contact Form'
               className='iFrame'
               src='https://docs.google.com/forms/d/e/1FAIpQLSeH50tZYjCmD4YdETgP2xgf5q84NRlU7lRA7jamKqYbb_EgBw/viewform?embedded=true'
               width='640'
               height='900'
-              frameborder='0'
-              marginheight='0'
-              marginwidth='0'
+              frameBorder='0'
+              marginHeight='0'
+              marginWidth='0'
             >
               Loading…
             </iframe>

@@ -43,3 +43,94 @@
     width: 100%;
   }
 }
+.iconDisplay {
+  display: inline-flex;
+  padding-bottom: 10px;
+}
+
+.langIcon {
+  margin: 5px;
+}
+
+.customIcon {
+  background: url('./Express.png');
+  height: 50px;
+  width: 50px;
+  display: flex;
+  background-color: palevioletred;
+}
+
+.javascriptIcon:hover {
+  color: #f5de19;
+}
+.javascriptIcon:active {
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.cssIcon:hover {
+  color: #0068bb;
+}
+
+.cssIcon:active {
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+.htmlIcon:hover {
+  color: #ea6228;
+}
+.htmlIcon:active {
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.nodeIcon:hover {
+  color: #87c000;
+}
+.nodeIcon:active {
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.reactIcon:hover {
+  color: #6bc9ea;
+}
+.reactIcon:active {
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.mongoIcon {
+  background: url('./mongoWhite.png');
+  background-size: cover;
+}
+.mongoIcon:active {
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.mongoIcon:hover {
+  background: url('./mongoColor.png');
+  background-size: cover;
+}
+
+.expressIcon {
+  background: url('./expressWhite.png');
+  background-size: cover;
+  background-position: center;
+}
+.expressIcon:active {
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.expressIcon:hover {
+  background: url('./expressRed.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.expressIcon:active {
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}

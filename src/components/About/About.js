@@ -9,7 +9,12 @@ const About = () => {
         <div className='container'>
           <div className='proContainer'>
             <div className='proPicDiv'>
-              <img className='proPic' src={require('./DSC_0135.jpg')} alt='' />
+              <img
+                className='proPic'
+                title='A most handsome developer'
+                src={require('./test..jpg')}
+                alt=''
+              />
             </div>
             <div className='proText'>
               <h3>I am Nik Arboleda</h3>
@@ -26,6 +31,41 @@ const About = () => {
                 and contact me at your liesure, which is how I'll be working on
                 your stuff....leisurely.
               </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h4>Languages & Technologies I Speak:</h4>
+            </div>
+            <div className='iconDisplay'>
+              <i
+                className='fab fa-js-square fa-3x javascriptIcon langIcon'
+                title='JavaScript'
+              ></i>
+              <i
+                className='fab fa-html5 fa-3x langIcon htmlIcon'
+                title='HTML5'
+              ></i>
+              <i
+                className='fab fa-css3-alt fa-3x langIcon cssIcon'
+                title='CSS'
+              ></i>
+              <i
+                className='fab fa-node fa-3x langIcon nodeIcon'
+                title='Node.Js'
+              ></i>
+              <i
+                className='fab fa-react fa-3x langIcon reactIcon'
+                title='React'
+              ></i>
+              <span
+                className='customIcon langIcon mongoIcon'
+                title='MongoDB'
+              ></span>
+              <span
+                className='customIcon langIcon expressIcon'
+                title='Express.js'
+              ></span>
             </div>
           </div>
         </div>

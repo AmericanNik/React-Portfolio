@@ -36,6 +36,12 @@
   width: 175px;
 }
 
+.navLogo:active {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
 .navMenu {
   margin-left: auto;
 }
